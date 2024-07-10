@@ -22,7 +22,7 @@ require("./UserDetails");
 const User = mongoose.model("UserInfo");
 
 app.get("/", (req, res) => {
-  res.send({ status: "Started" });
+  res.send({ status: "Started !" });
 });
 
 app.post("/register", async (req, res) => {
